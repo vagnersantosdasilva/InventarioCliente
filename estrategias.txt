@@ -1,0 +1,14 @@
+Problema: Detectar atualização do sistema ou atualização do de programas em tempo de execução no windows xp/7/8/10.
+
+Estratégia de verificação 
+-------------------------
+
+1º	Monitorar atividade do msiexec / msiserver  - ativado em divervas instalações de programas .
+	Problema: O MSEXEC não é evocado em toda instalação de software.
+
+
+2º	Monitorar mudanças em pastas de programas como "arquivos de programas"
+	Problema: Nem todo programa é instalado nesta pasta.
+
+3º	Monitorar arquivo WindowsUpdate.log e setupact.log que é modificado toda vez que uma atualização é instalada.
+

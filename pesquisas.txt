@@ -1,0 +1,5 @@
+Obter informações de atualizações
+wmic qfe get >> kb.txt
+
+gerar  lista 
+product where "Vendor like '%Adobe%'"  get name,version,identifyingNumber,installdate
